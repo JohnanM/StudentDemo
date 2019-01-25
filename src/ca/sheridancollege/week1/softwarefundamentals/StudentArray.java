@@ -13,7 +13,7 @@ public class StudentArray
 {
     public static void main(String[] args)
     {
-        StudentDemo [] studentList = new StudentDemo[6];
+        StudentDemo [] studentList = new StudentDemo[9];
         StudentDemo student1 = new StudentDemo("1", "Jim Halpern");
         studentList[0] = student1;
         studentList[1] = new StudentDemo("2", "Michael Scott");
@@ -21,6 +21,7 @@ public class StudentArray
         studentList[3] = new StudentDemo("4", "Dwight Schrute");
         studentList[4] = new StudentDemo("5", "Toby Flendersen");
         studentList[5] = new StudentDemo("6", "Ned Flanders");
+        studentList[6] = new StudentDemo("7", "Bart Flanders");
         
         for(int i=0; i<studentList.length; i++)
         {
